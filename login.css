@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+.header .logo img{
+    width: 120px;
+    height: auto;
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu-head ul{
+    display: flex;
+}   
+.header .menu-head ul li{
+    display: flex;
+    list-style: none;
+}
+.header .menu-head ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.form{
+    text-align: center;
+}
+.form form button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover {
+    opacity: 0.8;
+}
+.form form input{
+    margin: 16px;
+    width: 240px;
+    border-color: #7C89DF;
+}

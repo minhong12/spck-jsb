@@ -1,0 +1,63 @@
+/* Cần copy phần css heading cho tất cả file html */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+.container{
+    width: 95%;
+}
+.header .logo img{
+    width: 120px;
+    height: auto;
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu-head ul{
+    display: flex;
+}   
+.header .menu-head ul li{
+    display: flex;
+    list-style: none;
+}
+.header .menu-head ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Cần copy phần css heading cho tất cả file html */
+
+.body .welcome h1{
+    text-align: center;
+}
+.body .welcome h3{
+    text-align: center;
+    padding: 16px;
+}
+
+.main-content {
+    display: flex;
+    
+}
+.navigation .comment .comment-img img{
+    width: 120px;
+    height: auto;
+}
+.navigation .article a{
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #846BCF;
+    padding: 32px;
+    margin-top: 32px;
+    width: auto;
+    height: auto;
+}
